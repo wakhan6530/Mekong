@@ -10,7 +10,7 @@
 
 ### 1️⃣ Environmental Analysis (환경 영향)
 **Path**: `1_Environmental_Analysis/`  
-**작성자**: wakhan6530
+**작성자**: Parkspace
 
 **분석 내용**:
 - 🛰️ Sentinel-1 SAR 홍수 탐지
