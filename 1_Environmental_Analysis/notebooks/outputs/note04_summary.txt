@@ -1,0 +1,35 @@
+
+[Notebook 04 Summary — 2019 Jinghong Event Case Study]
+
+Analysis Period: 2019-07-01 to 2020-03-31
+Event: Jinghong Dam flow cut on 2019-07-15
+Method: Monthly Sentinel-1 VV/VH dual-polarization + CHIRPS precipitation
+
+Data Quality:
+• Mekong Delta: 9/9 months with good VH data
+• Tonlé Sap: 9/9 months with good VH data
+
+Key Findings:
+• ✓ Monthly SAR data provides adequate temporal resolution with good scene coverage (majority of months have ≥3 scenes, sufficient for min-composite stability)
+• ⚠️  No statistically significant change detected (p > 0.05). Possible reasons: (1) Small sample size reduces statistical power, (2) Event impact delayed or diffused over longer period, (3) High natural variability masks signal
+• ✓ VH polarization consistently detects 15-30% more inundation than VV alone, demonstrating critical value of dual-polarization SAR for capturing flooded vegetation under rice paddies and mangroves
+• ⚠️  Monthly flood extent shows high variability (CV ~ 20-40%), indicating strong seasonal and inter-annual dynamics that complicate short-term event attribution
+
+Limitations:
+• Small sample size (n=3 pre, n=6 post) limits statistical power
+• Monthly resolution may miss sub-monthly abrupt events
+• Cannot fully isolate dam effect from natural variability
+
+Recommendation:
+Present as exploratory case study demonstrating SAR monitoring capability.
+Emphasize VH polarization value for detecting hidden inundation.
+Use visual evidence as primary narrative, statistics as support.
+
+Artifacts:
+• outputs/monthly_flood_2019_2020.csv (raw monthly data)
+• outputs/event_impact_analysis_2019.csv (statistical test results)
+• outputs/monthly_stacked_delta_2019.png (VV/VH decomposition)
+• outputs/monthly_stacked_tonlesap_2019.png
+• outputs/multiyear_comparison_delta.png (2019 vs control years)
+• outputs/multiyear_comparison_tonlesap.png
+• outputs/monthly_ratio_vs_wet_baseline_2019.png (baseline deviation)

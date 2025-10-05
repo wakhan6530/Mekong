@@ -1,0 +1,30 @@
+
+DUAL-POLARIZATION SAR FLOOD ANALYSIS SUMMARY
+
+Period: 2015-2024 (Aug-Sep monsoon)
+Method: Sentinel-1 VV/VH with morphological refinement
+
+QUANTITATIVE RESULTS:
+         AOI  Years_analyzed  Mean_VH_extent_km2  Mean_VH_only_km2  Mean_VH_gain_pct  Std_VH_gain_pct  Total_cropland_flooded_km2  Total_rice_loss_tons_mid  Economic_loss_mid_M_USD Economic_loss_range
+Mekong Delta              10        64322.738539       1803.931204          2.796425         1.112509                11725.552828              1.128584e+07              4514.337839 $3224.5M - $5804.1M
+   Tonle Sap              10        26393.764481       5508.568719         21.677921         7.167919                24788.559235              1.311811e+07              4984.880108 $3560.6M - $6409.1M
+
+KEY METRICS:
+- Mean VH advantage: 12.2% ± 4.1%
+- Mekong Delta: 2.8% gain
+- Tonle Sap: 21.7% gain
+
+ECONOMIC IMPACT (Mid-Scenario):
+- Total cropland flooded: 36,514 km²
+- Rice loss: 24,403,950 tons
+- Economic loss: $9499.2 million
+
+METHODOLOGY:
+- Thresholds: VV < -16.0dB, VH < -22.0dB
+- Refinement: Morphological + topographic (slope ≤ 5.0°)
+- Scale: 30m
+
+CRITICAL MESSAGE:
+VH polarization detects 12.2% more flooding than VV by revealing 
+water under vegetation. This "invisible" flooding is critical for agricultural 
+monitoring and early warning systems.
