@@ -116,7 +116,12 @@ def resolve_assets_dir() -> Path:
     for c in candidates:
         if c.exists():
             return c
-    return candidates[0]  # default (may not exist; we handle below)
+    if not any(c.exists() for c in candidates):
+    raise FileNotFoundError(
+        f"❌ outputs/web_assets not found. Run Notebook 07 first.\n"
+        f"Searched: {[str(c) for c in candidates]}"
+    )
+return next(c for c in candidates if c.exists())
 
 ASSETS = resolve_assets_dir()
 MANIFEST_PATH = ASSETS / "manifest.json"
