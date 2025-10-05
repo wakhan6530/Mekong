@@ -1,0 +1,28 @@
+
+[Correlation Analysis Summary — Notebook 03]
+
+Main Hypothesis: Precipitation explains flood extent variability
+Variables: Flood(VH, km²) vs Precipitation(Aug–Sep, mm)
+Period: 2015–2024 (n = 10 years)
+
+Results:
+• Mekong Delta: r = -0.082, p = 0.8217
+• Tonlé Sap:    r = 0.263, p = 0.4627
+
+Conclusion: NOT SUPPORTED
+Weak or non-significant correlation indicates precipitation alone cannot explain flood extent. Other factors dominate.
+
+Implication:
+Weak precipitation-flood correlation supports the hypothesis that dam operations
+significantly alter natural flood patterns, independent of climatic drivers.
+
+Artifacts:
+• outputs/combined_analysis.csv (merged dataset)
+• outputs/correlation_table.csv (full correlation matrix)
+• outputs/scatter_rain_vs_flood_panels.png (regression diagnostics)
+• outputs/flood_vs_rain_overlay.png (temporal visualization)
+
+Next Steps:
+• Notebook 04: Monthly drill-down for 2019 event attribution
+• Notebook 05: Dual-polarization refinement
+• Notebook 06: Drought analysis (dry-season complement)
