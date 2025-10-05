@@ -1,4 +1,4 @@
-# NASA Mekong Hackathon 2024
+# NASA Mekong Hackathon 2025
 메콩강 유역 댐 영향 종합 분석
 
 ## 🎯 프로젝트 목표
